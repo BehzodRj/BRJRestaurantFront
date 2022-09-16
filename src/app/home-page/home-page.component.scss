@@ -37,9 +37,9 @@
         cursor: pointer;
 
         &:active {
-            background-color: transparent;
-            border: 1px solid #E1B168;
-            color: #E1B168;
+          background-color: transparent;
+          border: 1px solid #E1B168;
+          color: #E1B168;
         }
       }
     }
@@ -119,10 +119,248 @@
         cursor: pointer;
 
         &:active {
-            background-color: #E1B168;
-            color: #000;
+          background-color: #E1B168;
+          color: #000;
         }
       }
     }
   }
+}
+
+.section_container {
+    background-color: #FFF8F5;
+    padding: 100px 0;
+
+    .section_content {
+        max-width: 1800px;
+        margin: 0 auto;
+
+        .workTime_content {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            .workTime_block {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .workTime_item {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 75px;
+                    height: 75px;
+                    border-radius: 100px;
+                    background: #292E36;
+
+                    img {
+                        width: 35px;
+                    }
+                }
+
+                .workTime_title {
+                    margin-left: 10px;
+
+                    h1 {
+                        font-family: 'Cormorant Infant', sans-serif;
+                        font-weight: 400;
+                        font-size: 25px;
+                        color: #292E36;
+                    }
+
+                    h2 {
+                        margin-top: 7px;
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 15px;
+                        color: #555555;
+                    }
+                }
+            }
+        }
+
+        .storyRestaurant_content {
+            margin-top: 150px;
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+
+            .storyRestaurant_block {
+                margin-left: 40px;
+
+                .storyRestaurant_title {
+                    h1 {
+                        font-family: 'Cormorant Infant', sans-serif;
+                        font-weight: 400;
+                        font-size: 40px;
+                        color: #292E36;
+                    }
+
+                    h2 {
+                        margin-top: 10px;
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #555555;
+                    }
+                }
+
+                .storyRestaurant_description {
+                    margin-top: 25px;
+                    display: flex;
+                    align-items: center;
+
+                    .storyRestaurantYear {
+                        margin-right: 40px;
+                        h1 {
+                            font-family: 'Cormorant Infant', sans-serif;
+                            font-weight: 400;
+                            font-size: 40px;
+                            color: #292E36;
+                        }
+
+                        h2 {
+                            margin-top: 10px;
+                            font-family: 'Josefin Sans', sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 30px;
+                            color: #555555;
+                        }
+                    }
+                }
+
+                .storyRestaurant_signature {
+                    margin-top: 25px;
+
+                    h1 {
+                        font-family: 'Josefin Sans', sans-serif;
+                        font-weight: 400;
+                        font-size: 20px;
+                        color: #555555;
+                    }
+
+                    h2 {
+                        margin-top: 10px;
+                        font-family: 'Ms Madi', sans-serif;
+                        font-size: 50px;
+                    }
+                }
+            }
+        }
+
+        .menu_content {
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            margin-top: 270px;
+
+            .menu_left_block {
+                display: flex;
+                flex-direction: column;
+                align-items: flex-start;
+                .menu {
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 15px;
+                    letter-spacing: 3px;
+                    text-transform: uppercase;
+                    color: #292E36;
+                    border-top: 1px solid #E1B168;
+                    border-bottom: 1px solid #E1B168;
+                    width: 60px;
+                    padding: 10px 2px 5px;
+                }
+
+                .menu_title {
+                    margin-top: 10px;
+                    font-family: 'Cormorant Infant', sans-serif;
+                    font-weight: 400;
+                    font-size: 40px;
+                    letter-spacing: 0.2px;
+                    text-transform: capitalize;                   
+                    color: #292E36;
+                    
+                }
+
+                .menu_description {
+                    margin-top: 10px;
+                    width: 450px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 20px;
+                    letter-spacing: 0.2px;                    
+                    color: #555555;
+                }
+
+                img {
+                    margin-top: 40px;
+                }
+
+                .seeAllDishes {
+                    margin-top: 50px;
+                    width: 250px;
+                    height: 70px;
+                    border: 2px solid #E1B168;
+                    border-radius: 0px;
+                    font-family: 'Josefin Sans', sans-serif;
+                    font-weight: 400;
+                    font-size: 22px;
+                    text-align: center;
+                    letter-spacing: 0.2px;
+                    background-color: transparent;
+                    color: #E1B168;
+                    cursor: pointer;
+
+                    &:active {
+                        background-color: #E1B168;
+                        color: #000;
+                    }
+                }
+            }
+
+            .menu_right_block {
+
+                h1 {
+                    font-family: 'Cormorant Infant', sans-serif;
+                    font-weight: 400;
+                    font-size: 36px;
+                    letter-spacing: 0.2px;
+                    color: #292E36;
+                }
+
+                .menu_right_items {
+                    display: flex;
+                    align-items: center;
+                    margin: 20px 0 40px 0;
+
+                    .menu_right_dish {
+                        width: 84px;
+                        border-radius: 100px;
+                    }
+
+                    .menu_right_about_items {
+                        margin-left: 10px;
+
+                        h1 {
+                            font-family: 'Cormorant Infant', sans-serif;
+                            font-weight: 400;
+                            font-size: 30px;
+                            letter-spacing: 0.2px;
+                            color: #292E36;
+                        }
+
+                        h2 {
+                            margin-top: 5px;
+                            font-family: 'Josefin Sans', sans-serif;
+                            font-weight: 400;
+                            font-size: 20px;
+                            letter-spacing: 0.2px;
+                            color: #555555;
+                        }
+                    }
+                }
+            }
+        }
+    }
 }
